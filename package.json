@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev",
-    "build": "vuepress build public",
+    "build": "vuepress build",
     "eject": "vuepress eject"
   },
   "author": "Ryan Haskell-Glatz",
