@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # Jangle API
 > The RESTful API built on top of Jangle Core.
 
@@ -35,7 +31,7 @@ Protected endpoints will check these places for a user token:
 	Authorization: Bearer our-token
 	```
 
-- As a query parameter in your URL (for testing)
+- As a query parameter in our URL (for testing)
 	```http
 	GET /api/lists/authors?token=our-token
 	```
@@ -191,7 +187,7 @@ If that user doesn't exist or the password doesn't match:
 
 ### Overview
 
-The List API exposes Jangle Core's function using RESTful API standards. Once you are familar with the List API, the Items API will feel super easy!
+The List API exposes Jangle Core's function using RESTful API standards. Once we become familar with the List API, the Items API will feel super easy!
 
 Here are all the endpoints for the List API:
 
@@ -312,11 +308,11 @@ __Options__
 
 __`where`__ - a JSON object filtering results. Uses the MongoDB [query selector format](https://docs.mongodb.com/manual/reference/operator/query/#query-selectors).
 
-__`select`__ - a list of fields you are interested in returning. Uses Mongoose's [select format](http://mongoosejs.com/docs/api.html#query_Query-select).
+__`select`__ - a list of fields we are interested in returning. Uses Mongoose's [select format](http://mongoosejs.com/docs/api.html#query_Query-select).
 
 __`populate`__ - an object using the Mongoose [populate format](http://mongoosejs.com/docs/api.html#query_Query-populate). (Useful for getting related items in one query.)
 
-__`sort`__ - The field or fields you want to sort by. Uses the Mongoose [sort format](http://mongoosejs.com/docs/api.html#query_Query-sort).
+__`sort`__ - The field or fields we want to sort by. Uses the Mongoose [sort format](http://mongoosejs.com/docs/api.html#query_Query-sort).
 
 __`page`__ - The page number to return, defaults to 1.
 
@@ -377,7 +373,7 @@ __Note:__ If provided a user token, this will work with all items. Without a tok
 
 __Options__
 
-__`select`__ - a list of fields you are interested in returning. Uses Mongoose's [select format](http://mongoosejs.com/docs/api.html#query_Query-select).
+__`select`__ - a list of fields we are interested in returning. Uses Mongoose's [select format](http://mongoosejs.com/docs/api.html#query_Query-select).
 
 __`populate`__ - an object using the Mongoose [populate format](http://mongoosejs.com/docs/api.html#query_Query-populate). (Useful for getting related items in one query.)
 
@@ -892,7 +888,7 @@ If the item could not be found:
 
 Get information about a list's structure and options.
 
-Useful for rolling your own CMS.
+Useful for rolling our own CMS.
 
 __Example__
 

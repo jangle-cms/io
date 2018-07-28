@@ -5,9 +5,9 @@
         h1.hero__title Jangle
         h2.hero__subtitle a cms for humans.
         .hero__buttons.button__row
-          span( v-fadable="300" )
+          span.fadable( v-fadable="300" )
             button.button.button--coral Get started
-          span( v-fadable="600" )
+          span.fadable( v-fadable="600" )
             button.button Learn more
 </template>
 
@@ -246,7 +246,7 @@ body,
   // Fadable
   .fadable {
     transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out,
-      transform 0.6s ease-in-out;
+    transform 0.6s ease-in-out;
     transform: translateY(8px);
     opacity: 0;
     visibility: hidden;

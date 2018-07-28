@@ -4,17 +4,16 @@
   "description": "The website for Jangle CMS.",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev",
-    "build": "vuepress build",
-    "eject": "vuepress eject"
+    "dev": "vuepress dev site",
+    "build": "vuepress build site"
   },
   "author": "Ryan Haskell-Glatz",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.0.3",
-    "vuepress": "^0.10.0"
+    "vuepress": "^0.12.0"
   }
 }

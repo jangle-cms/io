@@ -14,10 +14,12 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       {
         text: 'Docs', items: [
-          { text: 'Jangle API', link: '/docs/api/' }
+          { text: 'Jangle Core', link: '/docs/core/' },
+          { text: 'Jangle API', link: '/docs/api/' },
         ]
       }
     ],
+    sidebar: 'auto',
     docsRepo: 'jangle-cms/io',
     // if your docs are in a specific branch (defaults to 'master'):
     docsBranch: 'master',
