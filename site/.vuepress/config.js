@@ -7,7 +7,8 @@ module.exports = {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600|Source+Sans+Pro:300,300i,600,600i'
       }
-    ]
+    ],
+    [ 'link', { rel: 'icon', href: '/favicon.png' } ]
   ],
   themeConfig: {
     nav: [
